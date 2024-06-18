@@ -4,8 +4,36 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
+  // darkmode
+  darkMode: "class",
+
   theme: {
-    extend: {},
+    extend: {
+      // container center
+      container: {
+        center: "true",
+      },
+
+      // fonts goole
+      fontFamily: {
+        oswald: ["Oswald", "sans serif"],
+        inter: ["Inter"],
+        poppins: ["Poppins"],
+      },
+
+      // background image dardmode
+      backgroundImage: {
+        heroLight: "url('https://preline.co/assets/svg/examples/polygon-bg-element.svg')",
+        heroDark: "url('https://preline.co/assets/svg/examples-dark/polygon-bg-element.svg')",
+      },
+
+      // color primary
+      colors: {
+        primary: "#857555",
+        second: "#aeaeb0",
+      },
+    },
   },
   plugins: [],
 }
