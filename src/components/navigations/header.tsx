@@ -110,14 +110,14 @@ function Header() {
                         <img src={logo} alt="" />
                     </div>
 
-                    <ul className="md:flex hidden gap-10 hover:*:text-primary *:duration-300">
+                    <ul className="md:flex hidden gap-10 *:cursor-pointer hover:*:text-primary *:duration-300">
                         {navLinks.header.map((item: HeaderType) => (
                             <li key={item._id}>
                                 <Link
                                     activeClass='active'
                                     to={item.link}
-                                    spy
-                                    smooth
+                                    spy={true}
+                                    smooth={true}
                                     offset={-50}
                                     duration={700}
                                 >

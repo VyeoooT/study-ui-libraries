@@ -32,6 +32,10 @@
     @apply text-3xl font-bold mb-2;
 }
 
+.active {
+    @apply text-second;
+}
+
 html {
     @apply font-oswald overflow-x-hidden;
     scroll-behavior: smooth;
