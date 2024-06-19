@@ -24,6 +24,14 @@
     @apply border-2 border-gray-600 dark:text-gray-100 text-gray-600 shadow-xl leading-6 dark:bg-slate-800 bg-white  rounded-lg font-bold;
 }
 
+.btn-link {
+    @apply flex items-center gap-2 dark:text-gray-200 font-semibold border-b-2 border-gray-700
+}
+
+.count[data-slot="count"] {
+    @apply text-3xl font-bold mb-2;
+}
+
 html {
     @apply font-oswald overflow-x-hidden;
     scroll-behavior: smooth;
