@@ -31,3 +31,24 @@ export const navLinks = {
         
     ]
 }
+
+export const tabs = {
+    tab: [
+        {
+            _id: 1001,
+            label: "Languages",
+        },
+        {
+            _id: 1002,
+            label: "Databases",
+        },
+        {
+            _id: 1003,
+            label: "Frameworks",
+        },
+        {
+            _id: 1004,
+            label: "Others",
+        },
+    ]
+}
