@@ -3,6 +3,7 @@ import About from "./components/about"
 import Skills from "./components/skills"
 import Projects from "./components/projects"
 import Resumes from "./components/resume"
+import Contact from "./components/contact"
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Skills />
       <Projects />
       <Resumes />
-      <div className="text-2xl text-gray-800 font-bold">inittial profile</div>
+      <Contact />
     </>
   )
 }
