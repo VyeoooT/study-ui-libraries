@@ -52,3 +52,20 @@ export const tabs = {
         },
     ]
 }
+
+export const resumeTabs = {
+    tab: [
+        {
+            _id: 1001,
+            label: "Education",
+        },
+        {
+            _id: 1002,
+            label: "Professional Skills",
+        },
+        {
+            _id: 1003,
+            label: "Experience",
+        },
+    ]
+}
