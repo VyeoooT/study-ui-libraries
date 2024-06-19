@@ -16,7 +16,7 @@ function Skills() {
     // toggle content of tab
     const initTab = tabs.tab[0].label
     const [isActive, setIsActive] = useState(initTab)
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
 
     const toggleContent = (label: string) => {
         setIsActive(label)
@@ -24,7 +24,7 @@ function Skills() {
 
     useEffect(() => {
         const handleResize = () => {
-            setIsMobile(isMobile)
+            setIsMobile(window.innerWidth <= 768)
         }
 
         window.addEventListener("resize", handleResize)
