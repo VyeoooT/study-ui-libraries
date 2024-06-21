@@ -1,8 +1,7 @@
 import Title from "../title"
 import { resumeTabs } from "../../constants"
 import { useEffect, useState } from "react"
-import Education from "./contents/education"
-import Experience from "./contents/experience"
+import EduWork from "./contents/edu_work"
 import ProcessSkill from "./contents/processSkill"
 
 function Resumes() {
@@ -31,7 +30,7 @@ function Resumes() {
     return (
         // Resumes
         <section id="resume" className="xl:max-w-screen-xl sm:container">
-            <div className="mx-auto md:px-20 px-5">
+            <div className="mx-auto md:px-10 px-5">
                 {/* title - tabs */}
                 <div className="text-center">
                     <Title title="+2 year of experience" description="my resume" />
@@ -54,16 +53,14 @@ function Resumes() {
                     {isMobile ? 
                     (
                         <>
-                            <Education />
-                            <Experience />
+                            <EduWork />
                             <ProcessSkill />
                         </>
                     )
                     :
                     (
                         <>
-                            {isActive === "Education" && <Education />}
-                            {isActive === "Experience" && <Experience />}
+                            {isActive === "Education & Word" &&  <EduWork />}
                             {isActive === "Professional Skills" && <ProcessSkill />}
                         </>
                     )
