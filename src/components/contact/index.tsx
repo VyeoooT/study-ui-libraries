@@ -1,16 +1,21 @@
 import Title from "../title"
+import ContactLeft from "./contactLeft"
+import ContactRight from "./contactRight"
 
 function Contact() {
     return (
         // contact
-        <section id="contact">
-            <div className="">
+        <section id="contact" className="container relative max-w-4xl mx-auto min-h-screen flex-center px-5">
+            <div className="w-2/3 pb-10">
+                {/* header */}
                 <div className="text-center">
-                    <Title title="Contact" description="Please contact me when you need it !" />
+                    <Title title="contact" description="contact with me" />
                 </div>
 
-                <div className="flex justify-center py-52">
-                    <span className="text-4xl text-primary font-bold">Contact</span>
+                {/* info contact */}
+                <div className="md:relative flex flex-col gap-5 sm:max-w-full max-w-xs mt-12 mx-auto">
+                    <ContactLeft />
+                    <ContactRight />
                 </div>
             </div>
         </section>
