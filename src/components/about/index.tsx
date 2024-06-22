@@ -69,12 +69,12 @@ function About() {
                 <div className="lg:h-96 lg:col-span-2 md:col-span-6 lg:bg-gradient-to-l md:bg-none bg-gradient-to-l from-gray-100 dark:from-slate-800 lg:mt-0 md:mt-9 mt-2">
                     <ul className="h-full flex lg:flex-col md:flex-row flex-col items-center justify-center text-2xl text-center lg:gap-10 md:gap-7 gap-10">
                         <li>
-                            <div data-slot="count" className="count">12 +</div>
+                            <div data-slot="count" className="count">2 +</div>
                             <div>Year of <span className="text-primary">Experience</span></div>
                         </li>
 
                         <li>
-                            <div data-slot="count" className="count">8 +</div>
+                            <div data-slot="count" className="count">3 +</div>
                             <div>Completed <span className="text-primary">Project</span></div>
                         </li>
 
