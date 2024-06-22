@@ -5,8 +5,8 @@ import ContactRight from "./contactRight"
 function Contact() {
     return (
         // contact
-        <section id="contact" className="container relative max-w-4xl mx-auto min-h-screen flex-center px-5">
-            <div className="w-2/3 pb-10">
+        <section id="contact" className="relative  flex-center">
+            <div className="container md:w-2/3 w-full max-w-6xl px-5 pb-10 mx-auto">
                 {/* header */}
                 <div className="text-center">
                     <Title title="contact" description="contact with me" />

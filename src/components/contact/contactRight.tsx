@@ -27,13 +27,13 @@ function ContactRight() {
 
                         <div>
                             <h2>Ho Chi Mini City</h2>
-                            <address>13P John doe Street,Us</address>
+                            <address>Go Vap</address>
                         </div>
                     </li>
 
                     <li>
                         <FontAwesomeIcon icon={faEnvelope} />
-                        <p>codeaprogram@gmail.com</p>
+                        <p>vlinh52000@gmail.com</p>
                     </li>
 
                     <li>

@@ -1,11 +1,24 @@
+import { useEffect, useState } from "react"
+
 function ContactLeft() {
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768)
+        }
+
+        window.addEventListener("resize", handleResize)
+        return() => { window.removeEventListener("resize", handleResize) }
+    }, [])
+
     return (
         // contactLeft
         <div className="w-full dark:bg-slate-800 bg-slate-50 dark:text-gray-100 text-gray-800 rounded-lg shadow-xl mx-auto py-14 px-7">
             <h3 className="font-semibold text-3xl">
                 Send Us A
-                <br />
-
+                {isMobile ? " " : <br /> }
+                
                 <span className="text-primary">Message</span>
             </h3>
 
