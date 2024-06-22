@@ -86,12 +86,12 @@ function Header() {
         const getTheme = localStorage.getItem("theme")
 
         if (getTheme === "dark") {
-            // document.documentElement.classList.add("dark")
+            document.documentElement.classList.add("dark")
             setIsDark(true)
         }
 
         return () => {
-            // document.documentElement.classList.remove("dark")
+            document.documentElement.classList.remove("dark")
             setIsDark(false)
         }
     })
