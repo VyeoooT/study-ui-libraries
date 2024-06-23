@@ -58,8 +58,7 @@ function Contact() {
                     <div className="group">
                         <a
                             className="flex flex-col items-center"
-                            href="tell:+84 365 037 985"
-                            target="_blank"
+                            href="tel:+84 365 037 985"
                             rel="noopener noreferrer"
                             onMouseEnter={() => handleMouseEnter('call')}
                             onMouseLeave={() => handleMouseLeave('call')}
