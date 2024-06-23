@@ -36,6 +36,14 @@
     @apply text-second;
 }
 
+.bg-circle-social svg {
+    @apply size-5 p-2 dark:bg-slate-800 bg-gray-100 rounded-full hover:!bg-primary hover:text-white duration-300;
+}
+
+.bg-circle-contact svg {
+    @apply size-10 p-5 dark:bg-slate-800 bg-gray-100 rounded-full group-hover:!bg-primary hover:text-white duration-500 overflow-hidden;
+}
+
 html {
     @apply font-oswald overflow-x-hidden;
     scroll-behavior: smooth;
@@ -56,11 +64,6 @@ button, nav, p, address {
 
 h3 {
     @apply md:text-2xl text-xl;
-}
-
-/* do minh install fontawesome vao node-module nen moi co css den the `svg` */
-a svg {
-    @apply dark:bg-slate-800 bg-gray-100 p-2 rounded-full hover:!bg-primary hover:text-white duration-300;
 }
 
 button i {

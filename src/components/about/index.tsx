@@ -47,13 +47,13 @@ function About() {
                         <p>Follow Me</p>
 
                         <div className="flex justify-end items-center gap-3">
-                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <a className="bg-circle-social" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faFacebook} />
                             </a>
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                            <a className="bg-circle-social" href="https://github.com" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <a className="bg-circle-social" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                         </div>
