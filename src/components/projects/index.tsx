@@ -29,13 +29,6 @@ function Projects() {
                         linkPreview="google.com"
                         imgSrc="https://contents.rizerssoft.com/uploads/large_aomua1_rizerssoft_online_db7f78b49d.png"
                     />
-
-                    <ProjectCard
-                        label="Project 4"
-                        linkGithub="github.com"
-                        linkPreview="google.com"
-                        imgSrc="https://contents.rizerssoft.com/uploads/large_aomua1_rizerssoft_online_db7f78b49d.png"
-                    />
                 </div>
             </div>
         </section>
