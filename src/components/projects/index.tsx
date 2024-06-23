@@ -11,23 +11,23 @@ function Projects() {
                 <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
                     <ProjectCard
                         label="Project 1"
-                        linkGithub="github.com"
-                        linkPreview="google.com"
+                        linkGithub="#"
+                        linkPreview="#"
                         imgSrc="https://contents.rizerssoft.com/uploads/large_aomua1_rizerssoft_online_db7f78b49d.png"
                     />
 
                     <ProjectCard
                         label="Project 2"
-                        linkGithub="github.com"
-                        linkPreview="google.com"
-                        imgSrc="https://contents.rizerssoft.com/uploads/large_aomua1_rizerssoft_online_db7f78b49d.png"
+                        linkGithub="#"
+                        linkPreview="#"
+                        imgSrc="https://contents.rizerssoft.com/uploads/large_app101_rizerssoft_online_0c3c4b2271.png"
                     />
 
                     <ProjectCard
                         label="Project 3"
-                        linkGithub="github.com"
-                        linkPreview="google.com"
-                        imgSrc="https://contents.rizerssoft.com/uploads/large_aomua1_rizerssoft_online_db7f78b49d.png"
+                        linkGithub="#"
+                        linkPreview="#"
+                        imgSrc="https://contents.rizerssoft.com/uploads/large_banhang28_rizerssoft_online_a4b22f10f5.png"
                     />
                 </div>
             </div>
