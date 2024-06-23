@@ -1,5 +1,5 @@
 import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUpRightFromSquare, faDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function About() {
