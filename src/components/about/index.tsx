@@ -1,5 +1,5 @@
-import { faFacebook, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUpRightFromSquare, faBorderAll, faDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faArrowUpRightFromSquare, faDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function About() {
@@ -15,31 +15,35 @@ function About() {
                             <h5 className="font-medium text-gray-600 dark:text-gray-200">Hi There !</h5>
 
                             <h1 className="relative sm:text-5xl text-4xl font-medium !leading-normal dark:text-white">
-                                I'm <span className="text-primary">VyEoo</span>
+                                I'm <span className="text-primary">Truong Vu Linh</span>
                                 <br />
                                 Frontend Developer
                             </h1>
                         </div>
 
                         <div className="flex md:justify-start justify-center items-center space-x-4">
-                            <button className="btn btn-filled">
-                                <FontAwesomeIcon icon={faEnvelope} />
-                                Contact To Me
-                            </button>
-
-                            <button className="btn-link">
-                                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                                See Portfolio
-                            </button>
+                            <a href="mailto:vlinh52000@gmail.com">
+                                <button className="btn btn-filled">
+                                    <FontAwesomeIcon icon={faEnvelope} />
+                                    Contact To Me
+                                </button>
+                            </a>
+                            
+                            <a href="https://www.topcv.vn/xem-cv/Ug4DUlADUFECAQELUAUPU1AKVAFUVAVSDAMCUw1321" target="_blank" rel="noopener noreferrer">
+                                <button className="btn-link">
+                                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                                    See Detail Profile
+                                </button>
+                            </a>
                         </div>
                     </div>
 
                     {/* desc */}
                     <div className="md:w-96 flex gap-2 md:ml-auto mt-9">
-                        <FontAwesomeIcon className="mt-0.5 md:inline-block hidden" icon={faBorderAll} />
-                        <p className="max-w-md text-xs text-balance leading-5 px-2 mx-auto">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ab necessitatibus voluptatum nemo culpa est, veritatis ullam omnis delectus sed a qui ex? Ipsa dolorem ratione perferendis placeat, consectetur temporibus?
-                        </p>
+                        <ul className="max-w-md text-xs space-y-2 pr-2 mx-auto">
+                            <li>Short-term goal: Desire to join the company to learn more work experience job.</li>
+                            <li>Long-term goal: Desire to contribute to building the company and become a position important in the team.</li>
+                        </ul>
                     </div>
 
                     {/* socials */}
@@ -47,13 +51,13 @@ function About() {
                         <p>Follow Me</p>
 
                         <div className="flex justify-end items-center gap-3">
-                            <a className="bg-circle-social" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faFacebook} />
+                            <a className="bg-circle-social" href="https://www.instagram.com/tlinhvn/" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faInstagram} />
                             </a>
-                            <a className="bg-circle-social" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                            <a className="bg-circle-social" href="https://github.com/VyeoooT" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
-                            <a className="bg-circle-social" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <a className="bg-circle-social" href="https://www.linkedin.com/in/vu-linh-truong-4018aa275/" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                         </div>
@@ -66,7 +70,7 @@ function About() {
                 </div>
 
                 {/* info experience - project - download cv */}
-                <div className="lg:h-96 lg:col-span-2 md:col-span-6 lg:bg-gradient-to-l md:bg-none bg-gradient-to-l from-gray-100 dark:from-slate-800 lg:mt-0 md:mt-9 mt-2">
+                <div className="lg:h-96 lg:col-span-2 md:col-span-6 lg:bg-gradient-to-l md:bg-none bg-gradient-to-l from-gray-100 dark:from-slate-800 lg:mt-0 md:py-0 py-4 md:mt-9 mt-2">
                     <ul className="h-full flex lg:flex-col md:flex-row flex-col items-center justify-center text-2xl text-center lg:gap-10 md:gap-7 gap-10">
                         <li>
                             <div data-slot="count" className="count">2 +</div>
@@ -78,12 +82,12 @@ function About() {
                             <div>Completed <span className="text-primary">Project</span></div>
                         </li>
 
-                        <li>
+                        {/* <li>
                             <button className="btn btn-outline">
                                 <FontAwesomeIcon icon={faDownload} />
                                 Download CV
                             </button>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
