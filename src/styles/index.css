@@ -44,6 +44,14 @@
     @apply size-10 p-5 dark:bg-slate-800 bg-gray-100 rounded-full group-hover:!bg-primary hover:text-white duration-500 overflow-hidden;
 }
 
+.bg-card-resume {
+    @apply dark:bg-slate-800 bg-gray-100 hover:hover:!bg-primary transition-all duration-300;
+}
+
+.shadow-light {
+    @apply shadow-md group-hover:shadow-fourth group-hover:shadow-md;
+}
+
 html {
     @apply font-oswald overflow-x-hidden;
     scroll-behavior: smooth;

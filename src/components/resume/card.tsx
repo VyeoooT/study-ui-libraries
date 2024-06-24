@@ -1,4 +1,4 @@
-function ResumeCard({ title, subTitle, description, result }: any) {
+function ResumeCard({ title, subTitle, descriptions, result}: any) {
     return (
         // resume card
         <div className="w-full h-1/3 flex group">
@@ -10,22 +10,38 @@ function ResumeCard({ title, subTitle, description, result }: any) {
             </div>
 
             {/* content */}
-            <div className="w-full bg-slate-600 rounded-lg lg:px-10 p-4 flex flex-col justify-center lg:gap-10 gap-6 shadowGray hover:bg-opacity-70 duration-300 transition-opacity">
+            <div className="w-full flex flex-col justify-center lg:gap-10 gap-6 rounded-lg lg:px-10 p-4 bg-card-resume shadow-gray-500 shadow-lg">
                 {/* top */}
                 <div className="flex lg:flex-row flex-col justify-between lg:items-center lg:gap-0 gap-4">
                     <div>
-                        <h3 className="md:text-2xl text-xl font-semibold group-hover:text-white duration-300">{title}</h3>
+                        {title && (
+                            <h3 className="md:text-2xl text-xl font-semibold group-hover:text-white">{title}</h3>
+                        )}
 
-                        <p className="text-sm text-gray-400 mt-2 group-hover:text-white duration-300">{subTitle}</p>
+                        {subTitle && (
+                            <p className="text-sm text-gray-700 mt-2 group-hover:text-white">{subTitle}</p>
+                        )}
                     </div>
 
-                    <div>
-                        <p className="px-4 py-2 bg-second/25 text-primary text-sm font-medium rounded-lg flex justify-center items-center shadowGray">{result}</p>
-                    </div>
+                    {result && (
+                        <div className="min-w-24 px-4 py-2 flex justify-center items-center bg-second/20 text-primary rounded-lg group-hover:bg-third shadow-light">
+                            <p className="text-sm font-medium text-nowrap">{result}</p>
+                        </div>
+                    )}
                 </div>
 
                 {/* bottom */}
-                <p className="md:text-base text-sm font-medium text-gray-400 group-hover:text-gray-300 duration-300 transition-colors">{description}</p>
+                {descriptions && descriptions.length > 0 && (
+                    <div className="pl-5">
+                        <ul className="list-disc list-outside">
+                            {descriptions.map((desc: string, idx: number) => (
+                                <li key={idx} className="md:text-base text-sm text-justify text-gray-700 group-hover:text-white duration-300 transition-colors">
+                                    {desc}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
             </div>
         </div>
     )

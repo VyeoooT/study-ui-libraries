@@ -60,7 +60,7 @@ function Resumes() {
                     :
                     (
                         <>
-                            {isActive === "Education & Word" &&  <EduWork />}
+                            {isActive === "Education & Work" &&  <EduWork />}
                             {isActive === "Professional Skills" && <ProcessSkill />}
                         </>
                     )

@@ -57,7 +57,7 @@ export const resumeTabs = {
     tab: [
         {
             _id: 1001,
-            label: "Education & Word",
+            label: "Education & Work",
         },
         {
             _id: 1002,

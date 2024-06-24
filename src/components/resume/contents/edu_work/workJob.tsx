@@ -15,27 +15,30 @@ function WorkJob() {
                 <ResumeCard
                     title="AZODA TECHNOLOGY JOINT STOCK COMPANY LTD"
                     subTitle="WORDPRESS DEVELOPER (12/2021 - 01/2023)"
-                    result=""
-                    description="Build the UI of WordPress website (introducing the company's images, projects, products and technology solutions)."
+                    descriptions={[
+                        "Build the UI of WordPress website (introducing the company's images, projects, products and technology solutions)."
+                    ]}
                 />
 
                 <ResumeCard
                     title="PROJECT HEALTH TRACKING"
                     subTitle="BACKEND DEVELOPER - FREELANCER (01/2023 - 10/2023)"
-                    result=""
-                    description="Build the system according to the MVC model.
-                    Analyze medical examination results from PDF files of hospitals.
-                    Use design pattern: adapter, to word with input data, returning results that accurately match the user's request.
-                    Query data from the database to display on the frontend.
-                    Handle data extracted from PDF and save to database.
-                    Processing arrays of data."
+                    descriptions={[
+                        "Build the system according to the MVC model.",
+                        "Analyze medical examination results from PDF files of hospitals.",
+                        "Use design pattern: adapter, to word with input data, returning results that accurately match the user's request.",
+                        "Query data from the database to display on the frontend.",
+                        "Handle data extracted from PDF and save to database.",
+                        "Processing arrays of data.",
+                    ]}
                 />
 
                 <ResumeCard
                     title="WORDPRESS DEVELOPER"
                     subTitle="ALENA ENERGY TECHNOLOGY CO., LTD (07/2023 - 3/2024)"
-                    result=""
-                    description="Build the UI of WordPress website (introducing the company's images, projects, products and technology solutions)."
+                    descriptions={[
+                        "Build the UI of WordPress website (introducing the company's images, projects, products and technology solutions)."
+                    ]}
                 />
             </div>
         </div>
