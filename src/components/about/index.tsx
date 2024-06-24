@@ -11,6 +11,7 @@ function About() {
                 <div className="lg:col-span-2 md:col-span-3 md:text-left text-center sm:pl-2">
                     {/* intro */}
                     <div className="space-y-5">
+                        {/* title */}
                         <div>
                             <h5 className="font-medium text-gray-600 dark:text-gray-200">Hi There !</h5>
 
@@ -21,7 +22,8 @@ function About() {
                             </h1>
                         </div>
 
-                        <div className="flex md:justify-start justify-center items-center space-x-4">
+                        {/* button link */}
+                        <div className="md:hidden flex justify-center items-center space-x-4">
                             <a href="mailto:vlinh52000@gmail.com">
                                 <button className="btn btn-filled">
                                     <FontAwesomeIcon icon={faEnvelope} />
@@ -32,7 +34,7 @@ function About() {
                             <a href="https://www.topcv.vn/xem-cv/Ug4DUlADUFECAQELUAUPU1AKVAFUVAVSDAMCUw1321" target="_blank" rel="noopener noreferrer">
                                 <button className="btn-link">
                                     <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                                    See Detail Profile
+                                    See Detail CV
                                 </button>
                             </a>
                         </div>
@@ -40,7 +42,7 @@ function About() {
 
                     {/* desc */}
                     <div className="md:w-96 flex gap-2 md:ml-auto mt-9">
-                        <ul className="max-w-md text-xs space-y-2 pr-2 mx-auto">
+                        <ul className="max-w-md text-sm space-y-2 pr-2 mx-auto">
                             <li>Short-term goal: Desire to join the company to learn more work experience job.</li>
                             <li>Long-term goal: Desire to contribute to building the company and become a position important in the team.</li>
                         </ul>
@@ -69,7 +71,7 @@ function About() {
                     <img className="md:w-full w-2/3 max-w-96 rounded-full md:mt-0 mt-5 mx-auto shadow-md" src="https://avatars.githubusercontent.com/u/97863745?v=4" alt="" />
                 </div>
 
-                {/* info experience - project - download cv */}
+                {/* info experience - project - button link */}
                 <div className="lg:h-96 lg:col-span-2 md:col-span-6 lg:bg-gradient-to-l md:bg-none bg-gradient-to-l from-gray-100 dark:from-slate-800 lg:mt-0 md:py-0 py-4 md:mt-9 mt-2">
                     <ul className="h-full flex lg:flex-col md:flex-row flex-col items-center justify-center text-2xl text-center lg:gap-10 md:gap-7 gap-10">
                         <li>
@@ -82,12 +84,22 @@ function About() {
                             <div>Completed <span className="text-primary">Project</span></div>
                         </li>
 
-                        {/* <li>
-                            <button className="btn btn-outline">
-                                <FontAwesomeIcon icon={faDownload} />
-                                Download CV
-                            </button>
-                        </li> */}
+                        {/* button link */}
+                        <li className="hidden md:flex lg:flex-row flex-col-reverse justify-center items-center gap-4">
+                            <a href="mailto:vlinh52000@gmail.com">
+                                <button className="btn btn-outline">
+                                    <FontAwesomeIcon icon={faEnvelope} />
+                                    Contact To Me
+                                </button>
+                            </a>
+                            
+                            <a href="https://www.topcv.vn/xem-cv/Ug4DUlADUFECAQELUAUPU1AKVAFUVAVSDAMCUw1321" target="_blank" rel="noopener noreferrer">
+                                <button className="btn-link">
+                                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                                    See Detail CV
+                                </button>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
