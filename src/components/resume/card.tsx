@@ -19,7 +19,7 @@ function ResumeCard({ title, subTitle, descriptions, result}: any) {
                         )}
 
                         {subTitle && (
-                            <p className="text-sm text-gray-700 mt-2 group-hover:text-white">{subTitle}</p>
+                            <p className="text-sm dark:text-second text-gray-700 mt-2 group-hover:text-white">{subTitle}</p>
                         )}
                     </div>
 
@@ -35,7 +35,7 @@ function ResumeCard({ title, subTitle, descriptions, result}: any) {
                     <div className="pl-5">
                         <ul className="list-disc list-outside">
                             {descriptions.map((desc: string, idx: number) => (
-                                <li key={idx} className="md:text-base text-sm text-justify text-gray-700 group-hover:text-white duration-300 transition-colors">
+                                <li key={idx} className="md:text-base text-sm text-justify dark:text-second text-gray-700 group-hover:text-white duration-300 transition-colors">
                                     {desc}
                                 </li>
                             ))}
