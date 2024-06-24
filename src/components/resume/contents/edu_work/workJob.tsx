@@ -13,12 +13,12 @@ function WorkJob() {
             {/* card content */}
             <div className="w-full flex flex-col gap-10 border-l-[6px] border-l-black border-opacity-30 lg:mt-10 mt-6">
                 <ResumeCard
-                    title="AZODA TECHNOLOGY JOINT STOCK COMPANY LTD"
-                    subTitle="WORDPRESS DEVELOPER (12/2021 - 01/2023)"
+                    title="WORDPRESS DEVELOPER"
+                    subTitle="ALENA ENERGY TECHNOLOGY CO., LTD (07/2023 - 3/2024)"
                     descriptions={[
                         "Build the UI of WordPress website (introducing the company's images, projects, products and technology solutions)."
                     ]}
-                />
+                />                
 
                 <ResumeCard
                     title="PROJECT HEALTH TRACKING"
@@ -34,8 +34,8 @@ function WorkJob() {
                 />
 
                 <ResumeCard
-                    title="WORDPRESS DEVELOPER"
-                    subTitle="ALENA ENERGY TECHNOLOGY CO., LTD (07/2023 - 3/2024)"
+                    title="AZODA TECHNOLOGY JOINT STOCK COMPANY LTD"
+                    subTitle="WORDPRESS DEVELOPER (12/2021 - 01/2023)"
                     descriptions={[
                         "Build the UI of WordPress website (introducing the company's images, projects, products and technology solutions)."
                     ]}
