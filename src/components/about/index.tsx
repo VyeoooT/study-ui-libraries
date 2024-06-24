@@ -68,7 +68,7 @@ function About() {
 
                 {/* img */}
                 <div className="lg:col-span-2 md:col-span-3">
-                    <img className="md:w-full w-2/3 max-w-96 rounded-full md:mt-0 mt-5 mx-auto shadow-md" src="https://avatars.githubusercontent.com/u/97863745?v=4" alt="" />
+                    <img className="md:w-full w-2/3 max-w-96 rounded-full md:mt-0 mt-5 mx-auto shadow-md" src="https://zpsocial-f44-org.zadn.vn/5a01933286236a7d3332.jpg" alt="" />
                 </div>
 
                 {/* info experience - project - button link */}
