@@ -27,7 +27,7 @@ function About() {
                             <a href="mailto:vlinh52000@gmail.com">
                                 <button className="btn btn-filled">
                                     <FontAwesomeIcon icon={faEnvelope} />
-                                    Contact To Me
+                                    Contact Me
                                 </button>
                             </a>
                             
@@ -89,7 +89,7 @@ function About() {
                             <a href="mailto:vlinh52000@gmail.com">
                                 <button className="btn btn-outline">
                                     <FontAwesomeIcon icon={faEnvelope} />
-                                    Contact To Me
+                                    Contact Me
                                 </button>
                             </a>
                             
