@@ -42,7 +42,7 @@ function About() {
 
                     {/* desc */}
                     <div className="md:w-96 flex gap-2 md:ml-auto mt-9">
-                        <ul className="max-w-md text-sm space-y-2 pr-2 mx-auto">
+                        <ul className="max-w-md lg:text-sm text-base space-y-2 md:pr-2 md:pl-0 px-2 mx-auto">
                             <li>Short-term goal: Desire to join the company to learn more work experience job.</li>
                             <li>Long-term goal: Desire to contribute to building the company and become a position important in the team.</li>
                         </ul>
