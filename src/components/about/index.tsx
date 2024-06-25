@@ -59,7 +59,7 @@ function About() {
                             <a className="bg-circle-social" href="https://github.com/VyeoooT" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
-                            <a className="bg-circle-social" href="https://www.linkedin.com/in/vu-linh-truong-4018aa275/" target="_blank" rel="noopener noreferrer">
+                            <a className="bg-circle-social" href="https://www.linkedin.com/in/vulinhtruong/" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                         </div>
