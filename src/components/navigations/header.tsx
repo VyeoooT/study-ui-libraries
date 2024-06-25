@@ -106,8 +106,8 @@ function Header() {
                 {/* navigation */}
                 <nav className="flex justify-between items-center max-w-6xl mx-auto px-2">
                     {/* logo */}
-                    <div className="w-[4%]">
-                        <img className="rounded-full" src={assets.logo} alt="" />
+                    <div className="lg:w-[3%] md:w-[4%] sm:w-[4%] w-[8%]">
+                        <img src={assets.logo} alt="" />
                     </div>
 
                     <ul className="md:flex hidden gap-10 *:cursor-pointer hover:*:text-primary *:duration-300">
