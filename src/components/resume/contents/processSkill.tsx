@@ -14,8 +14,8 @@ function ProcessSkill() {
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.5, delay: 0.5 }}
                         > */}
-                        <div className="relative w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-full">
-                            <span className="absolute -top-7 right-0">100%</span>
+                        <div className="relative w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-full">
+                            <span className="absolute -top-7 right-0">80%</span>
                         </div>
                         {/* </motion.span> */}
                     </span>
@@ -32,8 +32,8 @@ function ProcessSkill() {
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.5, delay: 0.5 }}
                         > */}
-                        <div className="relative w-[95%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-full">
-                            <span className="absolute -top-7 right-0">95%</span>
+                        <div className="relative w-[75%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-full">
+                            <span className="absolute -top-7 right-0">75%</span>
                         </div>
                         {/* </motion.span> */}
                     </span>
@@ -68,8 +68,8 @@ function ProcessSkill() {
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.5, delay: 0.5 }}
                         > */}
-                        <div className="relative w-[85%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-full">
-                            <span className="absolute -top-7 right-0">85%</span>
+                        <div className="relative w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-full">
+                            <span className="absolute -top-7 right-0">80%</span>
                         </div>
                         {/* </motion.span> */}
                     </span>
