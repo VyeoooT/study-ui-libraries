@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll'
 import { navLinks } from '../../constants'
-import logo from '../../assets/react.svg'
+import assets from '../../assets'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark, faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useRef, useState } from 'react';
@@ -106,8 +106,8 @@ function Header() {
                 {/* navigation */}
                 <nav className="flex justify-between items-center max-w-6xl mx-auto px-2">
                     {/* logo */}
-                    <div>
-                        <img src={logo} alt="" />
+                    <div className="w-[4%]">
+                        <img className="rounded-full" src={assets.logo} alt="" />
                     </div>
 
                     <ul className="md:flex hidden gap-10 *:cursor-pointer hover:*:text-primary *:duration-300">
