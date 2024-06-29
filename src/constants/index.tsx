@@ -2,6 +2,26 @@ export const navLinks = {
     logo: "/logo.png",
     header: [
         {
+            _id: 1000,
+            title: "Home",
+            link: "/",
+        },
+        {
+            _id: 1006,
+            title: "Semantic UI",
+            link: "/ui/semantic-ui",
+        },
+        {
+            _id: 1007,
+            title: "Mantine UI",
+            link: "/ui/mantine-ui",
+        },
+        {
+            _id: 1008,
+            title: "Chakra UI",
+            link: "/ui/chakra-ui",
+        },
+        {
             _id: 1001,
             title: "About",
             link: "about",

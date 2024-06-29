@@ -20,6 +20,7 @@ export default {
         oswald: ["Oswald", "sans serif"],
         inter: ["Inter"],
         poppins: ["Poppins"],
+        // lato: ["Lato"],
       },
 
       // background image dardmode

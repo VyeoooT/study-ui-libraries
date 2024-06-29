@@ -1,4 +1,5 @@
-import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
 import { navLinks } from '../../constants'
 import assets from '../../assets'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -114,12 +115,12 @@ function Header() {
                         {navLinks.header.map((item: HeaderType) => (
                             <li key={item._id}>
                                 <Link
-                                    activeClass='active'
+                                    // activeClass='active'
                                     to={item.link}
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-50}
-                                    duration={700}
+                                    // spy={true}
+                                    // smooth={true}
+                                    // offset={-50}
+                                    // duration={700}
                                 >
                                     {item.title}
                                 </Link>
@@ -151,12 +152,12 @@ function Header() {
                     {navLinks.header.map((item: HeaderType) => (
                         <li key={item._id}>
                             <Link
-                                activeClass='active'
+                                // activeClass='active'
                                 to={item.link}
-                                spy
-                                smooth
-                                offset={-50}
-                                duration={700}
+                                // spy
+                                // smooth
+                                // offset={-50}
+                                // duration={700}
                             >
                                 {item.title}
                             </Link>
