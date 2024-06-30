@@ -4,8 +4,7 @@ import Home from "./pages/home"
 import SemanticUIPage from "./pages/ui/semantic"
 import MantineUIPage from "./pages/ui/mantine"
 
-// import ChakraUIPage from "./pages/ui/chakra/indexxxx"
-import ChakraRootLayout from "./pages/ui/chakra/layouts/rootLayout"
+import ChakraUIPage from "./pages/ui/chakra/index"
 import ChakraDashboard, { tasksLoader } from "./pages/ui/chakra/dashboard"
 import ChakraCreate, { createAction } from "./pages/ui/chakra/create"
 import ChakraProfile from "./pages/ui/chakra/profile"
@@ -25,7 +24,7 @@ const router = createBrowserRouter([
     },
     {
         path: "/ui/chakra-ui",
-        element: <ChakraRootLayout />,
+        element: <ChakraUIPage />,
         children: [
             {
                 index: true,

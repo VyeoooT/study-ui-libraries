@@ -7,7 +7,7 @@ function ChakraSidebar() {
         // sidebar
         <List color={'white'} fontSize={'1.2em'} spacing={6}>
             <ListItem>
-                <NavLink to={'/ui/chakra-ui'}>
+                <NavLink to={'/ui/chakra-ui'} end>
                     <ListIcon as={CalendarIcon} color={'white'} />
                     Dashboard
                 </NavLink>

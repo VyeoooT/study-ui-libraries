@@ -47,7 +47,7 @@ export default ChakraDashboard
 
 // cai nay lam giong nhu dang lay api, nhung that chat dang chay json-server duoi local de fake
 export const tasksLoader = async () => {
-    const res = await fetch('http://localhost:3000/tasks')
+    const res = await fetch('https://fakestoreapi.com/products')
 
     return res.json()
 }
