@@ -1,4 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import HomeIntro from "./pages/home"
+import UiIntro from "./pages/ui"
+
 import ProfilePerson from "./pages/profile"
 
 import SemanticUIPage from "./pages/ui/semantic"
@@ -8,12 +11,21 @@ import ChakraUIPage from "./pages/ui/chakra/index"
 import ChakraDashboard, { tasksLoader } from "./pages/ui/chakra/dashboard"
 import ChakraCreate, { createAction } from "./pages/ui/chakra/create"
 import ChakraProfile from "./pages/ui/chakra/profile"
+import PageNotFound from "./pages/404"
 
 const router = createBrowserRouter([
     {   
         index: true,
+        path: "/",
+        element: <HomeIntro />
+    },
+    {
         path: "/profile-person",
         element: <ProfilePerson />
+    },
+    {
+        path: '/ui',
+        element: <UiIntro />,
     },
     {
         path: "/ui/semantic-ui",
@@ -42,6 +54,10 @@ const router = createBrowserRouter([
                 element: <ChakraProfile />,
             },
         ],
+    },
+    {
+        path: '*',
+        element: <PageNotFound />
     },
 ])
 

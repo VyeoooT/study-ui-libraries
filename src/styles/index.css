@@ -56,6 +56,10 @@
     @apply shadow-md group-hover:shadow-fourth group-hover:shadow-md;
 }
 
+.bg-linear-custom {
+    background-image: linear-gradient(to left bottom, #ffbead, #ffc4a0, #ffcc92, #ffd784, #ffe47a, #ffdc80, #ffd587, #ffce8e, #ffbca9, #e8b5c1, #c4b3c3, #aeaeb0)
+}
+
 html {
     @apply font-oswald overflow-x-hidden;
     scroll-behavior: smooth;
