@@ -15,16 +15,16 @@ function ResumeCard({ title, subTitle, descriptions, result}: any) {
                 <div className="flex lg:flex-row flex-col justify-between lg:items-center lg:gap-0 gap-4">
                     <div>
                         {title && (
-                            <h3 className="md:text-2xl text-xl font-semibold group-hover:text-white">{title}</h3>
+                            <h3 className="font-oswald md:text-2xl text-xl font-semibold group-hover:text-white">{title}</h3>
                         )}
 
                         {subTitle && (
-                            <p className="text-sm dark:text-second text-gray-700 mt-2 group-hover:text-white">{subTitle}</p>
+                            <p className="font-inter text-sm dark:text-second text-gray-700 mt-2 group-hover:text-white">{subTitle}</p>
                         )}
                     </div>
 
                     {result && (
-                        <div className="min-w-24 px-4 py-2 flex justify-center items-center bg-second/20 text-primary rounded-lg group-hover:bg-third shadow-light">
+                        <div className="font-inter min-w-24 px-4 py-2 flex justify-center items-center bg-second/20 text-primary rounded-lg group-hover:bg-third shadow-light">
                             <p className="text-sm font-medium text-nowrap">{result}</p>
                         </div>
                     )}

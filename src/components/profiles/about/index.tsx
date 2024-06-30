@@ -13,9 +13,9 @@ function About() {
                     <div className="space-y-5">
                         {/* title */}
                         <div>
-                            <h5 className="font-medium text-gray-600 dark:text-gray-200">Hi There !</h5>
+                            <h5 className="font-oswald font-medium text-gray-600 dark:text-gray-200">Hi There !</h5>
 
-                            <h1 className="relative sm:text-5xl text-4xl font-medium !leading-normal dark:text-white">
+                            <h1 className="font-oswald relative sm:text-5xl text-4xl font-medium !leading-normal dark:text-white">
                                 I'm <span className="text-primary">Truong Vu Linh</span>
                                 <br />
                                 Frontend Developer
@@ -23,7 +23,7 @@ function About() {
                         </div>
 
                         {/* button link */}
-                        <div className="md:hidden flex justify-center items-center space-x-4">
+                        <div className="font-oswald md:hidden flex justify-center items-center space-x-4">
                             <a href="mailto:vlinh52000@gmail.com">
                                 <button className="btn btn-filled">
                                     <FontAwesomeIcon icon={faEnvelope} />
@@ -42,14 +42,14 @@ function About() {
 
                     {/* desc */}
                     <div className="md:w-96 flex gap-2 md:ml-auto mt-9">
-                        <ul className="max-w-md lg:text-sm text-base space-y-2 md:pr-2 md:pl-0 px-2 mx-auto">
+                        <ul className="font-oswald max-w-md lg:text-sm text-base space-y-2 md:pr-2 md:pl-0 px-2 mx-auto">
                             <li>Short-term goal: Desire to join the company to learn more work experience job.</li>
                             <li>Long-term goal: Desire to contribute to building the company and become a position important in the team.</li>
                         </ul>
                     </div>
 
                     {/* socials */}
-                    <div className="flex items-center md:justify-end justify-center gap-6 mt-9 text-gray-600 dark:text-gray-200">
+                    <div className="font-oswald flex items-center md:justify-end justify-center gap-6 mt-9 text-gray-600 dark:text-gray-200">
                         <p>Follow Me</p>
 
                         <div className="flex justify-end items-center gap-3">
@@ -73,7 +73,7 @@ function About() {
 
                 {/* info experience - project - button link */}
                 <div className="lg:h-96 lg:col-span-2 md:col-span-6 lg:bg-gradient-to-l md:bg-none bg-gradient-to-l from-gray-100 dark:from-slate-800 lg:mt-0 md:py-0 py-4 md:mt-9 mt-2">
-                    <ul className="h-full flex lg:flex-col md:flex-row flex-col items-center justify-center text-2xl text-center lg:gap-10 md:gap-7 gap-10">
+                    <ul className="font-oswald h-full flex lg:flex-col md:flex-row flex-col items-center justify-center text-2xl text-center lg:gap-10 md:gap-7 gap-10">
                         <li>
                             <div data-slot="count" className="count">2 +</div>
                             <div>Year of <span className="text-primary">Experience</span></div>

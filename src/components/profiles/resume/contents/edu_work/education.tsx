@@ -7,7 +7,7 @@ function Education() {
             {/* header */}
             <div className="flex flex-col gap-4 lgl:py-12 py-6">
                 <p className="text-sm text-primary tracking-[4px]">2018 - Present</p>
-                <h2 className="md:text-4xl text-3xl font-bold">Education</h2>
+                <h2 className="font-oswald md:text-4xl text-3xl font-bold">Education</h2>
             </div>
 
             {/* card content */}

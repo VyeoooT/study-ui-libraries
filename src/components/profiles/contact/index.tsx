@@ -37,7 +37,7 @@ function Contact() {
                 {/* info contact */}
                 <div className="flex sm:flex-row flex-col sm:justify-around justify-center items-center max-sm:gap-10 sm:pt-5">
                     {/* email */}
-                    <div className="w-40 group">
+                    <div className="font-oswald w-40 group">
                         <a
                             className="flex flex-col items-center"
                             href="mailto:vlinh52000@gmail.com"
@@ -55,7 +55,7 @@ function Contact() {
                     </div>
 
                     {/* call */}
-                    <div className="w-40 group">
+                    <div className="font-oswald w-40 group">
                         <a
                             className="flex flex-col items-center"
                             href="tel:+84 365 037 985"
@@ -72,7 +72,7 @@ function Contact() {
                     </div>
 
                     {/* address */}
-                    <div className="w-40 group">
+                    <div className="font-oswald w-40 group">
                         <a
                             className="flex flex-col items-center"
                             href="https://maps.google.com"

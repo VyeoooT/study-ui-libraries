@@ -12,7 +12,7 @@ function ProjectCard({ label, linkPreview, linkGithub, imgSrc }: Props) {
     return (
         // project card
         <div className="flex justify-center items-center">
-            <div className="relative flex flex-col border-2 border-second rounded-xl overflow-hidden">
+            <div className="*:font-oswald relative flex flex-col border-2 border-second rounded-xl overflow-hidden">
                 <a className="group" href={linkPreview} target="_blank" rel="noopener noreferrer">
                     {/* img */}
                     <div className="w-80 h-[24rem]">

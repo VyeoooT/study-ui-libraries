@@ -100,7 +100,7 @@ function Header() {
     return (
         <>
             {/* blur - background */}
-            <div className={`fixed h-screen bg-black/10 backdrop-blur-sm inset-0 z-[997] ${isBlur ? "block" : "hidden"} duration-300`}></div>
+            <div className={`font-inter fixed h-screen bg-black/10 backdrop-blur-sm inset-0 z-[997] ${isBlur ? "block" : "hidden"} duration-300`}></div>
 
             {/* desktop navigation */}
             <header className="fixed w-full lg:px-0 bg-white dark:text-white dark:bg-slate-800 shadow-lg dark:sm:bg-slate-900 px-5 py-4 z-[999]">
