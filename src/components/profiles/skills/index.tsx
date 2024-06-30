@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Title from "../title"
-import { tabs } from "../../constants"
+import { tabs } from "../../../constants"
 import Languages from "./contents/languages"
 import Frameworks from "./contents/frameworks"
 import Databases from "./contents/databases"

@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import Home from "./pages/home"
+import ProfilePerson from "./pages/profile"
 
 import SemanticUIPage from "./pages/ui/semantic"
 import MantineUIPage from "./pages/ui/mantine"
@@ -10,9 +10,10 @@ import ChakraCreate, { createAction } from "./pages/ui/chakra/create"
 import ChakraProfile from "./pages/ui/chakra/profile"
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Home />
+    {   
+        index: true,
+        path: "/profile-person",
+        element: <ProfilePerson />
     },
     {
         path: "/ui/semantic-ui",

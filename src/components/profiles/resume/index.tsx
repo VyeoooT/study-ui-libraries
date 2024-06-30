@@ -1,5 +1,5 @@
 import Title from "../title"
-import { resumeTabs } from "../../constants"
+import { resumeTabs } from "../../../constants"
 import { useEffect, useState } from "react"
 import EduWork from "./contents/edu_work"
 import ProcessSkill from "./contents/processSkill"

@@ -1,7 +1,7 @@
 // import { Link } from 'react-scroll'
 import { Link } from 'react-router-dom'
-import { navLinks } from '../../constants'
-import assets from '../../assets'
+import { navLinks } from '../../../constants'
+import assets from '../../../assets'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark, faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useRef, useState } from 'react';

@@ -4,7 +4,7 @@
 // import Projects from "./components/projects"
 // import Resumes from "./components/resume"
 // import Contact from "./components/contact"
-import Footer from "./components/navigations/footer"
+// import Footer from "./components/profiles/navigations/footer"
 import { RouterFile } from "./routes"
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
       <Skills />
       <Resumes />
       <Projects />
-      <Contact /> */}
-      <Footer />
+      <Contact />
+      <Footer /> */}
     </>
   )
 }
